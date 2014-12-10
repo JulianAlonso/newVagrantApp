@@ -50,6 +50,8 @@
 
     <bean id="App" class="com.julian.vagrantApp.App" />
 
-    <bean id="pruebaDAO" class="com.julian.vagrantApp.PruebaDAO" />
-
+    <import resource="commands.xml" />
+    <import resource="images.xml" />
+    <import resource="buttons.xml" />
+    
 </beans>

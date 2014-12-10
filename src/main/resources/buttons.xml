@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <bean id="startButton" class="com.julian.vagrantApp.button.FButton">
+              <constructor-arg ref="playIcon" />
+              <constructor-arg value="START" />
+              <property name="command" ref="testCommand" />
+       </bean>
+
+       <bean id="pauseButton" class="com.julian.vagrantApp.button.FButton">
+              <constructor-arg ref="pauseIcon" />
+              <constructor-arg value="PAUSE" />
+              <property name="command" ref="testCommand" />
+       </bean>
+
+       <bean id="stopButton" class="com.julian.vagrantApp.button.FButton">
+              <constructor-arg ref="stopIcon" />
+              <constructor-arg value="STOP" />
+              <property name="command" ref="testCommand" />
+       </bean>
+
+       <bean id="addButton" class="com.julian.vagrantApp.button.FButton">
+              <constructor-arg ref="addIcon" />
+              <constructor-arg value="ADD" />
+              <property name="command" ref="testCommand" />
+       </bean>
+
+       <bean id="deleteButton" class="com.julian.vagrantApp.button.FButton">
+              <constructor-arg ref="deleteIcon" />
+              <constructor-arg value="DELETE" />
+              <property name="command" ref="testCommand" />
+       </bean>
+
+</beans>
