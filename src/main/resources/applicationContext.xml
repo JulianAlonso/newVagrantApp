@@ -51,7 +51,7 @@
     <bean id="App" class="com.julian.vagrantApp.App" />
 
     <import resource="commands.xml" />
-    <import resource="images.xml" />
     <import resource="buttons.xml" />
+    <import resource="icons.xml" />
     
 </beans>

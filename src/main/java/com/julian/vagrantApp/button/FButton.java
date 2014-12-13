@@ -4,7 +4,6 @@ import com.julian.vagrantApp.command.Command;
 
 import javax.annotation.PostConstruct;
 import javax.swing.*;
-import java.awt.event.MouseAdapter;
 
 /**
  * Created by julianalonso on 10/12/14.

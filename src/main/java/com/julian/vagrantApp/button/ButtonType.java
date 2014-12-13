@@ -5,7 +5,7 @@ package com.julian.vagrantApp.button;
  */
 public enum ButtonType {
 
-    START,
+    PLAY,
     PAUSE,
     STOP,
     ADD,

@@ -4,9 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-       <bean id="startButton" class="com.julian.vagrantApp.button.FButton">
+       <bean id="playButton" class="com.julian.vagrantApp.button.FButton">
               <constructor-arg ref="playIcon" />
-              <constructor-arg value="START" />
+              <constructor-arg value="PLAY" />
               <property name="command" ref="testCommand" />
        </bean>
 
